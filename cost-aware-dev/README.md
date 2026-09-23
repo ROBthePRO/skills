@@ -16,9 +16,9 @@ The skill uses the project-scoped agent definitions in `.codex/agents/`.
 
 | Agent | Model and effort | Access | Purpose |
 | --- | --- | --- | --- |
-| `worker` | GPT-5.6 Luna, xhigh | Workspace write | Implements changes and runs focused tests |
+| `worker` | GPT-6 Luna, xhigh | Workspace write | Implements changes and runs focused tests |
 | `planner` | GPT-6 Astra, medium | Read-only | Plans complex or ambiguous work |
-| `reviewer` | GPT-5.6 Sol, high | Read-only | Reviews normal or moderately complex changes |
+| `reviewer` | GPT-6 Sol, high | Read-only | Reviews normal or moderately complex changes |
 | `deep_reviewer` | GPT-6 Astra, medium | Read-only | Reviews high-risk changes |
 
 Keep these defaults unless the user requests a different setup or a concrete technical risk justifies it.
