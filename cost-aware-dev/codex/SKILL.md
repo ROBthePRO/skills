@@ -14,9 +14,9 @@ the work routed through the project's cost-aware agent workflow. Invoke it expli
 Use the project-scoped custom agents in `.codex/agents/` by their names. Their model, reasoning
 effort, and sandbox settings are part of their role definitions:
 
-- `worker`: GPT-5.6 Luna with `xhigh`, `workspace-write`; default implementation role.
+- `worker`: GPT-6 Luna with `xhigh`, `workspace-write`; default implementation role.
 - `planner`: GPT-6 Astra with `medium`, `read-only`; reserve for complex or ambiguous work.
-- `reviewer`: GPT-5.6 Sol with `high`, `read-only`; use for normal or moderately complex work.
+- `reviewer`: GPT-6 Sol with `high`, `read-only`; use for normal or moderately complex work.
 - `deep_reviewer`: GPT-6 Astra with `medium`, `read-only`; reserve for high-risk work.
 
 Do not replace these role settings with a more expensive model or higher effort unless the user
