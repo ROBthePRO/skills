@@ -8,7 +8,7 @@ Each skill lives in its own directory and includes a `SKILL.md` file with the in
 
 | Skill | Description |
 | --- | --- |
-| [Cost-Aware Development](codex/cost-aware-dev/) | Routes repository work through a risk-based workflow with focused tests and reviews. |
+| [Cost-Aware Development](cost-aware-dev/) | Routes repository work through a risk-based workflow with focused tests and reviews. |
 
 ## Using a Skill
 
