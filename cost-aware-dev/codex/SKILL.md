@@ -16,7 +16,7 @@ effort, and sandbox settings are part of their role definitions:
 
 - `worker`: GPT-6 Luna with `xhigh`, `workspace-write`; default implementation role.
 - `planner`: GPT-6 Astra with `medium`, `read-only`; reserve for complex or ambiguous work.
-- `reviewer`: GPT-6 Sol with `high`, `read-only`; use for normal or moderately complex work.
+- `reviewer`: GPT-6.1 Sol with `high`, `read-only`; use for normal or moderately complex work.
 - `deep_reviewer`: GPT-6 Astra with `medium`, `read-only`; reserve for high-risk work.
 
 Do not replace these role settings with a more expensive model or higher effort unless the user
